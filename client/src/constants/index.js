@@ -239,6 +239,7 @@ export const TUTORIALS = [
 
 export const CERTIFICATIONS = [
     { title: "Backend Development with Node.js", issuer: "IBM", link: "https://www.coursera.org/account/accomplishments/verify/HJ24EHGCDAFD", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
+    { title: "RESTful APIs withNode.js", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/node-js?id=YWEYBVHLRI", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Build Your Own Static Website", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/static-website?id=DTCLNEJPHT", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Build Your Own Responsive Website", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/responsive-website?id=GDAVSRZVPK", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Introduction to Databases", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/introduction-to-databases?id=WXRDQUYOTU", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
