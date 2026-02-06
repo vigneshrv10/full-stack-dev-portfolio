@@ -12,7 +12,7 @@ export const PERSONAL_DETAILS = {
     email: "vigneshravikrindi05@gmail.com",
     phone: "+91 8639185882",
     location: "India",
-    resumeLink: "https://drive.google.com/file/d/1oPhiB5nehl8z6642he8oFarwxfQc-eRD/view?usp=sharing",
+    resumeLink: "https://drive.google.com/file/d/1iaseDLbe810TijGlXEdAS_HT3-5ghRG2/view?usp=sharing",
     // Google Drive direct link conversion: /file/d/ID/view -> https://drive.google.com/uc?export=view&id=ID
     profileImg: profileImg,
 };
@@ -239,7 +239,7 @@ export const TUTORIALS = [
 
 export const CERTIFICATIONS = [
     { title: "Backend Development with Node.js", issuer: "IBM", link: "https://www.coursera.org/account/accomplishments/verify/HJ24EHGCDAFD", logo: "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" },
-    { title: "RESTful APIs withNode.js", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/node-js?id=YWEYBVHLRI", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
+    { title: "RESTful APIs with Node.js", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/node-js?id=YWEYBVHLRI", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Build Your Own Static Website", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/static-website?id=DTCLNEJPHT", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Build Your Own Responsive Website", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/responsive-website?id=GDAVSRZVPK", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
     { title: "Introduction to Databases", issuer: "NxtWave", link: "https://certificates.ccbp.in/intensive/introduction-to-databases?id=WXRDQUYOTU", logo: "https://nxtwave-website-media-files.s3.ap-south-1.amazonaws.com/ccbp-website/Nxtwave_Colored.svg" },
