@@ -1,6 +1,6 @@
 
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaPython, FaNodeJs, FaDatabase, FaAndroid } from "react-icons/fa";
-import { SiLeetcode, SiCodechef, SiGeeksforgeeks, SiHackerrank, SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiPostman, SiLinux, SiFramer, SiFlask, SiBootstrap } from "react-icons/si";
+import { SiLeetcode, SiCodechef, SiGeeksforgeeks, SiHackerrank, SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiPostman, SiLinux, SiFramer, SiFlask, SiBootstrap, SiDocker } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { TbWorld } from "react-icons/tb";
 import profileImg from "../assets/profile.jpg";
@@ -35,6 +35,14 @@ export const PROJECTS = [
         featured: true,
     },
     {
+        title: "Order Management System",
+        github: "https://github.com/vigneshrv10/Assignment-1",
+        live: "https://order-management-app-tan.vercel.app/",
+        description: "This is a small order management application with a React frontend, Node.js/Express API, and PostgreSQL database. The app allows you to view orders, create new orders, and search customers.",
+        tech: ["React", "Node", "PostgreSQL"],
+        featured: true,
+    },
+    {
         title: "Connect Four Game",
         github: "https://github.com/vigneshrv10/Connect-Four-Game",
         live: "https://vigneshrv10.github.io/Connect-Four-Game/",
@@ -48,6 +56,14 @@ export const PROJECTS = [
         live: "https://vigneshrv-portfolio.vercel.app/",
         description: "Personal portfolio with 3D animations and interactive elements.",
         tech: ["React", "Three.js", "Framer Motion"],
+        featured: true,
+    },
+    {
+        title: "KanBan",
+        github: "https://github.com/vigneshrv10/kanban",
+        live: "https://kanban-functional.vercel.app/",
+        description: "A fully functional Kanban board application built with React, Vite, and Context API.",
+        tech: ["React", "Vite", "Context API"],
         featured: true,
     },
     {
@@ -73,6 +89,13 @@ export const PROJECTS = [
         description: "A fun dating app clone with swipe mechanics.",
         tech: ["HTML", "CSS", "JS"],
         featured: true,
+    },
+    {
+        title: "CareAI Clinic Assistant",
+        github: "https://github.com/vigneshrv10/Real-Time-Multilingual-Voice-AI-Agent",
+        description: "CareAI is a full-stack Voice AI agent built to automate clinic appointment scheduling. Users can click speak, verbally request an appointment in natural language, and receive an instant voice-synthesized response from an intelligent LLM that handles database collision scheduling",
+        tech: ["Python", "FAST API", "Whisper STT", "Groq API (Llama-3)", "Vanilla HTML/JS/CSS", "gTTS"],
+        featured: false,
     },
     {
         title: "Blogging Platform",
@@ -205,7 +228,8 @@ export const SKILLS = [
             { name: "Git/GitHub", icon: FaGithub },
             { name: "VS Code", icon: VscCode },
             { name: "Postman", icon: SiPostman },
-            { name: "Linux", icon: SiLinux }
+            { name: "Linux", icon: SiLinux },
+            { name: "Docker", icon: SiDocker }
         ]
     },
     {
@@ -267,7 +291,7 @@ export const PUBLICATIONS = [
     {
         title: "Deep Learning Driven Multi-Crop Disease Detection",
         conference: "IEEE PUNECON 2025",
-        link: "https://drive.google.com/file/d/1w53f96aVHCpFk6kCHDZn6W-85SPo_b3D/view?usp=sharing",
+        link: "https://ieeexplore.ieee.org/document/11378866",
         description: "Multilingual Audio Feedback Using Google Cloud Services.",
     },
     {
