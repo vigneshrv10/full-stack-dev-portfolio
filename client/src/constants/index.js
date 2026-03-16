@@ -1,6 +1,6 @@
 
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaPython, FaNodeJs, FaDatabase, FaAndroid } from "react-icons/fa";
-import { SiLeetcode, SiCodechef, SiGeeksforgeeks, SiHackerrank, SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiPostman, SiLinux, SiFramer, SiFlask, SiBootstrap, SiDocker } from "react-icons/si";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaPython, FaNodeJs, FaDatabase, FaAndroid, FaMicrosoft } from "react-icons/fa";
+import { SiLeetcode, SiCodechef, SiGeeksforgeeks, SiHackerrank, SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiPostman, SiLinux, SiFramer, SiFlask, SiBootstrap, SiDocker, SiNotion, SiPostgresql, SiSupabase, SiTensorflow, SiJirasoftware } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { TbWorld } from "react-icons/tb";
 import profileImg from "../assets/profile.jpg";
@@ -212,14 +212,17 @@ export const SKILLS = [
             { name: "Node.js", icon: FaNodeJs },
             { name: "Express.js", icon: SiExpress },
             { name: "Flask", icon: SiFlask },
-            { name: "RESTful APIs", icon: TbWorld }
+            { name: "RESTful APIs", icon: TbWorld },
+            { name: "FASI API", icon: TbWorld }
         ]
     },
     {
         category: "Databases",
         items: [
             { name: "MySQL", icon: SiMysql },
-            { name: "MongoDB", icon: SiMongodb }
+            { name: "MongoDB", icon: SiMongodb },
+            { name: "PostgreSQL", icon: SiPostgresql },
+            { name: "Supa Base", icon: SiSupabase }
         ]
     },
     {
@@ -229,16 +232,35 @@ export const SKILLS = [
             { name: "VS Code", icon: VscCode },
             { name: "Postman", icon: SiPostman },
             { name: "Linux", icon: SiLinux },
-            { name: "Docker", icon: SiDocker }
+            { name: "Docker", icon: SiDocker },
+            { name: "Notion", icon: SiNotion },
+            { name: "Word DOC, PPT, Excel", icon: FaMicrosoft }
+        ]
+    },
+    {
+        category: "AI & ML",
+        items: [
+            { name: "LLMs"},
+            { name: "NLP" },
+            { name: "Google Colab" },
+            { name: "TensorFlow", icon: SiTensorflow },
         ]
     },
     {
         category: "CS Fundamentals",
         items: [
-            { name: "OOPs", },
-            { name: "DSA", },
-            { name: "OS", },
-            { name: "System Design", }
+            { name: "Object Oriented Programming", },
+            { name: "Data Structures and Algorithms", },
+            { name: "Software Development Lift Cycle" }
+        ]
+    },
+    {
+        category: "Soft Skills",
+        items: [
+            { name: "Problem Solving" },
+            { name: "Decision Making" },
+            { name: "Optimal Solutions"},
+            { name: "Written and Verbal"},
         ]
     },
 ];
@@ -303,6 +325,12 @@ export const PUBLICATIONS = [
 ];
 
 export const AWARDS = [
+    {
+        title: "Hackathon Finalist",
+        issuer: "KCIT, AP",
+        description: "Developed platform for Fitness daily tips, Calories management, Personal AI trainee,Accessories & Diet delivery for users.",
+        logo: "https://kits-anna.com/wp-content/uploads/2020/12/01Logo-Medium.png",
+    },
     {
         title: "Postman API Innovation Challenge - Runner Up",
         issuer: "MLSC Kare",
